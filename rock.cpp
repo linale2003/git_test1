@@ -1,10 +1,12 @@
 #include <iostream>
+#include <ctime>
+#include <cstdlib>
 
 using namespace std;
 
 int main(){
 	char user,machine;
-	char arr[size]={'r','s','p;};
+	char arr[size]={'r','s','p'};
 	srand(time(NULL));
 	int i = rand() %3;
 	machine =arr[i];
@@ -22,4 +24,7 @@ int main(){
 		cout « "You win" « endl;
 	else
 		cout « "You lose" « endl;
+		
+
+	return 0;
 }
