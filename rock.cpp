@@ -13,4 +13,13 @@ int main(){
 	cin >> user;
 	
 	cout << machine << endl;
+	
+	if (machine == user)
+		cout « "Draw" « endl;
+	else if ((user == 'r' && machine == 's') || \
+			(user == 'p' && machine == 'r') || \
+			(user == 's' && machine == 'p'))
+		cout « "You win" « endl;
+	else
+		cout « "You lose" « endl;
 }
