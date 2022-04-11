@@ -9,4 +9,8 @@ int main(){
 	int i = rand() %3;
 	machine =arr[i];
 	
+	cout << "Enter r(rock), s(scissors) or p(paper): ";
+	cin >> user;
+	
+	cout << machine << endl;
 }
